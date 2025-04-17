@@ -14,9 +14,9 @@ hugo.linux
 # Temporary lock file while building
 /.hugo_build.lock
 
-content/*/**.png
-content/*/**.PNG
-content/*/**.jpg
-content/*/**.JPG
-content/*/**.jpeg
-content/*/**.JPEG
+content/**/**.png
+content/**/**.PNG
+content/**/**.jpg
+content/**/**.JPG
+content/**/**.jpeg
+content/**/**.JPEG
