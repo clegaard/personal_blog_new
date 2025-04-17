@@ -1,0 +1,6 @@
+[submodule "image_hosting"]
+	path = image_hosting
+	url = git@github.com:clegaard/image_hosting.git
+[submodule "themes/gallery"]
+	path = themes/gallery
+	url = https://github.com/nicokaiser/hugo-theme-gallery.git

@@ -1,0 +1,60 @@
+copyright = "© Christian Legaard"
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy"]
+enableRobotsTXT = true
+languageCode = "en"
+timeZone = "Europe/Berlin"
+timeout = "120s"
+title = "Gallery"
+theme = "gallery"
+
+[params]
+defaultTheme = "dark"
+description = "Photos from somewhere out there"
+title = "My Gallery"
+[params.author]
+email = "clegaard@outlook.com"
+name = "Christian Legaard"
+[params.socialIcons]
+# facebook = "https://www.facebook.com/"
+instagram = "https://www.instagram.com/christian.legaard.photography"
+# github = "https://github.com/nicokaiser/hugo-theme-gallery/"
+# youtube = "https://www.youtube.com/"
+email = "mailto:clegaard@outlook.com"
+#website = "https://example.com"
+#mastodon = "https://example.com"
+#pixelfed = "https://example.com"
+#mixcloud = "https://example.com"
+#flickr = "https://www.flickr.com"
+#500px = "https://500px"
+[params.gallery]
+boxSpacing = 10
+targetRowHeight = 288
+targetRowHeightTolerance = 0.25
+
+[outputs]
+home = ["HTML", "RSS"]
+page = ["HTML"]
+section = ["HTML"]
+
+[imaging]
+quality = 75
+resampleFilter = "CatmullRom"
+[imaging.exif]
+disableDate = false
+disableLatLong = true
+includeFields = "ImageDescription|Orientation"
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
+
+# [menu]
+# [[menu.footer]]
+# name = "GitHub"
+# url = "https://github.com/nicokaiser/hugo-theme-gallery/"
+# weight = 3
+
+[services]
+[services.rss]
+limit = 100
