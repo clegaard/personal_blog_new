@@ -4,8 +4,7 @@ title: Underwater
 sort_by: Name
 categories: ["animals", "nature"]
 resources:
-  - src: sharks.jpg
-    title: "TODO”"
+  - src: whale_shark.jpeg
     params:
       cover: true
       hidden: false

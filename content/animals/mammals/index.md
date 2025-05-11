@@ -3,7 +3,7 @@ date: 2023-01-12
 title: Mammals
 categories: ["animals", "nature"]
 resources:
-  - src: langur.jpeg
+  - src: DSC03357.jpeg
     params:
       cover: true
 ---

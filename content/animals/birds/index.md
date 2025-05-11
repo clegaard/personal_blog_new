@@ -3,7 +3,7 @@ date: 2023-01-12
 title: Birds
 categories: ["animals", "nature"]
 resources:
-  - src: sunbird_upside_down.jpg
+  - src: sunbird_upside_down.jpeg
     params:
       cover: true
 ---
